@@ -12,7 +12,7 @@ public class GoSystemSettingUtils {
         if (Build.VERSION.SDK_INT >= 26) {
 
 
-            // android 8.0引导
+            // android 8.0guide
             intent.setAction("android.settings.APP_NOTIFICATION_SETTINGS");
             intent.putExtra("android.provider.extra.APP_PACKAGE", context.getPackageName());
         } else if (Build.VERSION.SDK_INT >= 21) {
@@ -21,7 +21,7 @@ public class GoSystemSettingUtils {
             intent.putExtra("app_package", context.getPackageName());
             intent.putExtra("app_uid", context.getApplicationInfo().uid);
         } else {
-            // 其他
+            // other
             intent.setAction("android.settings.APPLICATION_DETAILS_SETTINGS");
             intent.setData(Uri.fromParts("package", context.getPackageName(), null));
         }

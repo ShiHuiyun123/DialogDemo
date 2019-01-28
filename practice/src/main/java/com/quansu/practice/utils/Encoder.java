@@ -32,9 +32,9 @@ public class Encoder {
 
 
     /**
-     * encodeBase64File:(将文件转成base64 字符串). <br/>
+     * encodeBase64File:(Converting files to Base64 strings). <br/>
      *
-     * @param path 文件路径
+     * @param path File path
      * @return
      * @throws Exception
      * @author guhaizhou@126.com
@@ -60,8 +60,8 @@ public class Encoder {
     }
 
     /**
-     * @param filePath 图片路径
-     * @return Base64 字符串
+     * @param filePath Picture path
+     * @return Base64 Character string
      */
     public static String getEnocodeStr(String filePath) {
 
@@ -159,7 +159,7 @@ public class Encoder {
 
 
     /**
-     * 压缩图片
+     * Compress pictures
      *
      * @param fromFile
      * @param toFile

@@ -26,21 +26,21 @@ public class JumpPermissionManagement {
     /**
      * Build.MANUFACTURER
      */
-    private static final String MANUFACTURER_HUAWEI = "Huawei";//华为
-    private static final String MANUFACTURER_MEIZU = "Meizu";//魅族
-    private static final String MANUFACTURER_XIAOMI = "Xiaomi";//小米
-    private static final String MANUFACTURER_SONY = "Sony";//索尼
+    private static final String MANUFACTURER_HUAWEI = "Huawei";//HUAWEI
+    private static final String MANUFACTURER_MEIZU = "Meizu";//Meizu
+    private static final String MANUFACTURER_XIAOMI = "Xiaomi";//millet
+    private static final String MANUFACTURER_SONY = "Sony";//SONY
     private static final String MANUFACTURER_OPPO = "OPPO";
     private static final String MANUFACTURER_LG = "LG";
     private static final String MANUFACTURER_VIVO = "vivo";
-    private static final String MANUFACTURER_SAMSUNG = "samsung";//三星
-    private static final String MANUFACTURER_LETV = "Letv";//乐视
-    private static final String MANUFACTURER_ZTE = "ZTE";//中兴
-    private static final String MANUFACTURER_YULONG = "YuLong";//酷派
-    private static final String MANUFACTURER_LENOVO = "LENOVO";//联想
+    private static final String MANUFACTURER_SAMSUNG = "samsung";//Samsung
+    private static final String MANUFACTURER_LETV = "Letv";//letv
+    private static final String MANUFACTURER_ZTE = "ZTE";//Zhongxing
+    private static final String MANUFACTURER_YULONG = "YuLong";//Coolpad
+    private static final String MANUFACTURER_LENOVO = "LENOVO";//association
 
     /**
-     * 此函数可以自己定义
+     * This function can be defined by itself.
      * @param activity
      */
     public static void GoToSetting(Activity activity){
@@ -68,7 +68,6 @@ public class JumpPermissionManagement {
                 break;
             default:
                 ApplicationInfo(activity);
-                Log.e("goToSetting", "目前暂不支持此系统");
                 break;
         }
     }

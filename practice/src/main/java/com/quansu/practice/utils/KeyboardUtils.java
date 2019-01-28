@@ -14,7 +14,7 @@ public class KeyboardUtils {
     }
 
     /**
-     * 动态显示软键盘
+     * Dynamic Display Soft Keyboard
      *
      * @param activity activity
      */
@@ -28,7 +28,7 @@ public class KeyboardUtils {
     }
 
     /**
-     * 动态隐藏软键盘
+     * Dynamic Hiding Soft Keyboard
      *
      * @param activity activity
      */

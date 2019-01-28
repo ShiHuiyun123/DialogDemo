@@ -4,10 +4,6 @@ import android.graphics.Color;
 
 /**
  * Created by xianguangjin on 16/8/19.
- * <p>
- * 我的GitHub: https://github.com/ysnows
- * <p>
- * 加油,做一个真的汉子
  */
 
 public class ColorUtils {

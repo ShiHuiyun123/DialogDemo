@@ -7,11 +7,11 @@ import android.text.TextUtils;
 
 /**
  * Created by Shi on 2017/10/16.
- * 获取手机相关信息
+ * Get information about mobile phones
  */
 
 public class MobilePhoneInfoUtils {
-    //手机型号
+    //Mobile phone model
     public static String getPhoneModel() {
 
         String handSetInfo = android.os.Build.MODEL;
@@ -19,20 +19,20 @@ public class MobilePhoneInfoUtils {
     }
 
 
-    //系统版本
+    //System version
     public static String getPhoneSystemVersion() {
 
         String handSetInfo = android.os.Build.VERSION.RELEASE;
         return handSetInfo;
     }
 
-    //sdk版本
+    //SDK version
     public static String getPhoneSdk() {
         String handSetInfo = android.os.Build.VERSION.SDK;
         return handSetInfo;
     }
 
-    //获取当前版本号
+    //Get the current version number
     public  static String getAppVersionName(Context context) {
         String versionName = "";
         try {

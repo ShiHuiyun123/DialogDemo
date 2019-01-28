@@ -23,10 +23,6 @@ import java.util.Map;
 
 /**
  * Created by xianguangjin on 16/7/5.
- * <p>
- * 我的GitHub: https://github.com/ysnows
- * <p>
- * 加油,做一个真的汉子
  */
 
 
@@ -68,7 +64,7 @@ public class PackageUtils {
     }
 
     /**
-     * 判断qq是否可用
+     * Determine whether QQ is available
      *
      * @param context
      * @return
@@ -89,7 +85,7 @@ public class PackageUtils {
 
 
     /**
-     * 调用系统安装应用
+     * Call System Installation Application
      */
     public static boolean install(Context context, File file) {
         if (file == null || !file.exists() || !file.isFile()) {
@@ -114,7 +110,7 @@ public class PackageUtils {
     }
 
     /**
-     * 调用系统卸载应用
+     * Call system uninstall application
      */
     public static void uninstallApk(Context context, String packageName) {
         Intent intent = new Intent(Intent.ACTION_DELETE);
@@ -124,7 +120,7 @@ public class PackageUtils {
     }
 
     /**
-     * 打开已安装应用的详情
+     * Open Details of Installed Applications
      */
     public static void goToInstalledAppDetails(Context context, String packageName) {
         Intent intent = new Intent();
@@ -144,14 +140,14 @@ public class PackageUtils {
 
 
     /**
-     * 获取指定程序信息
+     * Get specified program information
      */
     public static ActivityManager.RunningTaskInfo getTopRunningTask(Context context) {
         try {
             ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
-            // 得到当前正在运行的任务栈
+
             List<ActivityManager.RunningTaskInfo> runningTasks = am.getRunningTasks(1);
-            // 得到前台显示的任务栈
+
             ActivityManager.RunningTaskInfo runningTaskInfo = runningTasks.get(0);
             return runningTaskInfo;
         } catch (Exception e) {
@@ -199,7 +195,7 @@ public class PackageUtils {
 
 
     /**
-     * 获取当前系统安装应用的默认位置
+     * Get the default location of the current system installation application
      *
      * @return APP_INSTALL_AUTO or APP_INSTALL_INTERNAL or APP_INSTALL_EXTERNAL.
      */
@@ -263,14 +259,14 @@ public class PackageUtils {
     }
 
     /**
-     * 获取已安装的全部应用信息
+     * Get all installed application information
      */
     public static List<PackageInfo> getInsatalledPackages(Context context) {
         return context.getPackageManager().getInstalledPackages(0);
     }
 
     /**
-     * 获取已安装的全部应用信息
+     * Get all installed application information
      */
 //    public static boolean isInsatalled(Context context, String pkg) {
 //        if (!Check.isEmpty(pkg)) {
@@ -287,7 +283,7 @@ public class PackageUtils {
 //    }
 
     /**
-     * 获取指定程序信息
+     * Get specified program information
      */
     public static ApplicationInfo getApplicationInfo(Context context, String pkg) {
         try {
@@ -300,14 +296,14 @@ public class PackageUtils {
 
 
     /**
-     * 启动应用
+     * Startup application
      */
     public static boolean startAppByPackageName(Context context, String packageName) {
         return startAppByPackageName(context, packageName, null);
     }
 
     /**
-     * 启动应用
+     * Startup application
      */
     public static boolean startAppByPackageName(Context context, String packageName, Map<String, String> param) {
         PackageInfo pi = null;

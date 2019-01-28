@@ -9,7 +9,7 @@ import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 
 public class ImageUtil {/**
- * 根据Uri获取图片绝对路径，解决Android4.4以上版本Uri转换
+ * Obtain absolute path of picture according to Uri to solve Uri conversion of Android version 4.4 or above
  *
  * @param context
  * @param imageUri

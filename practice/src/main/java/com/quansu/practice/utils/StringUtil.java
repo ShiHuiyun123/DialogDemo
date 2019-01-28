@@ -28,7 +28,7 @@ public class StringUtil {
 
 
     /**
-     * 返回当前程序版本名
+     * Returns the current program version name
      */
     public static String getAppVersionName(Context context) {
         String versionName = "";
@@ -47,7 +47,7 @@ public class StringUtil {
     }
 
     /**
-     * 返回当前程序版本名
+     * Returns the current program version name
      */
     public static int getAppVersionCode(Context context) {
         String versionName = "";
@@ -67,17 +67,17 @@ public class StringUtil {
 
 
     /**
-     * 手机号验证
+     * Mobile phone number verification
      *
      * @param str
      *
-     * @return 验证通过返回true
+     * @return Verify by returning true
      */
     public static boolean isMobile(String str) {
         Pattern p = null;
         Matcher m = null;
         boolean b = false;
-        p = Pattern.compile("^[1][3,4,5,8,7][0-9]{9}$"); // 验证手机号
+        p = Pattern.compile("^[1][3,4,5,8,7][0-9]{9}$");
         m = p.matcher(str);
         b = m.matches();
 
@@ -86,7 +86,7 @@ public class StringUtil {
 
 
     /**
-     * 根据手机的分辨率从 dp 的单位 转成为 px(像素)
+     * Change from DP unit to PX (pixel) according to the resolution of mobile phone
      */
     public static int dip2px(Context context, float dpValue) {
         final float scale = context.getResources().getDisplayMetrics().density;
@@ -108,19 +108,18 @@ public class StringUtil {
 
 
     public static String setterName(String name) {
-        // 快速检查
+
         if (name == null || name.isEmpty()) {
-            // 没必要转换
+
             return "";
         } else {
-            // 不含下划线，仅将首字母小写
             return name.substring(0, 1).toUpperCase() + name.substring(1);
         }
     }
 
 
     /**
-     * 处理url
+     *
      *
      * @param context
      * @param url
@@ -150,7 +149,7 @@ public class StringUtil {
     }
 
     /**
-     * 剔除参数
+     * Rejection parameter
      *
      * @param url
      *
@@ -165,7 +164,7 @@ public class StringUtil {
     }
 
     /**
-     * 把url中所含有的参数转换为bundle对象
+     * Converting the parameters contained in the URL to bundle objects
      *
      * @param url
      *
@@ -184,7 +183,7 @@ public class StringUtil {
     }
 
     /**
-     * 获取url中的所有参数
+     * Get all the parameters in the URL
      *
      * @param url
      *

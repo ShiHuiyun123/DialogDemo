@@ -10,11 +10,8 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 
 /**
- * Created by xianguangjin on 2017/4/2.
- * <p>
- * 我的GitHub: https://github.com/ysnows
- * <p>
- * 加油,做一个真的汉子
+ * * Created by xianguangjin on 2017/4/2.
+ *
  */
 
 public class RequestModelUtils {

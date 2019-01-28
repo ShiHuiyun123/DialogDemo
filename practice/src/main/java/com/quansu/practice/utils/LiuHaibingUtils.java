@@ -13,7 +13,7 @@ import java.lang.reflect.Method;
 public class LiuHaibingUtils {
 
     /**
-     * 判断是否是刘海屏
+     * Is it Liu Haiping?
      *
      * @return
      */
@@ -28,7 +28,7 @@ public class LiuHaibingUtils {
 
 
     /**
-     * Android P 刘海屏判断
+     * Android P Liu Haiping's Judgment
      *
      * @param activity
      *
@@ -49,8 +49,7 @@ public class LiuHaibingUtils {
 
 
     /**
-     * 小米刘海屏判断.
-     *
+      Xiaomi Liu Haiping judges.     *
      * @return 0 if it is not notch ; return 1 means notch
      *
      * @throws IllegalArgumentException if the key exceeds 32 characters
@@ -90,7 +89,7 @@ public class LiuHaibingUtils {
     }
 
     /**
-     * 华为刘海屏判断
+     * Huawei Liu Haiping's Judgment
      *
      * @return
      */
@@ -116,7 +115,7 @@ public class LiuHaibingUtils {
     public static final int VIVO_FILLET = 0x00000008;//是否有圆角
 
     /**
-     * VIVO刘海屏判断
+     * VIVO Liu Haiping Judgment
      *
      * @return
      */
@@ -139,7 +138,7 @@ public class LiuHaibingUtils {
     }
 
     /**
-     * OPPO刘海屏判断
+     * OPPO Liu Haiping Judgment
      *
      * @return
      */
@@ -148,7 +147,7 @@ public class LiuHaibingUtils {
 
     }
 
-    // 是否是小米手机
+    // Is it a millet phone?
     public static boolean isXiaomi() {
         return "Xiaomi".equals(Build.MANUFACTURER);
 

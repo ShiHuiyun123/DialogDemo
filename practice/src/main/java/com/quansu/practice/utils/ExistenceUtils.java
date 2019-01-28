@@ -9,22 +9,22 @@ import android.os.Build;
 
 public class ExistenceUtils {
 
-    public static boolean isExistence(Activity a){//判断当前的activity是否存在
+    public static boolean isExistence(Activity a){//Determine whether the current activity exists
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
 
             if(a.isFinishing()||a.isDestroyed()){
 
-                return  true;//不存在了
+                return  true;//Does not exist.
             }
 
         }else{
-            if(a.isFinishing()){//不存在了
+            if(a.isFinishing()){//Does not exist.
                 return  true;
             }
         }
 
-        return  false;//还存在
+        return  false;//Still exist
     }
 
 }

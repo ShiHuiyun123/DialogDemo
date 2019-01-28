@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- * 对Bundle进行响应式的封装
+ *Responsive encapsulation of Bundle
  * Created by xianguangjin on 15/12/23.
  */
 public class BUN {
@@ -60,7 +60,7 @@ public class BUN {
     }
 
     /**
-     * @return 操作完成
+     * @return Operation completed
      */
     public Bundle ok() {
         return this.bundle;

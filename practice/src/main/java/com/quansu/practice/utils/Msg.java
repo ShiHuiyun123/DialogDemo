@@ -2,10 +2,6 @@ package com.quansu.practice.utils;
 
 /**
  * Created by xianguangjin on 2016/9/27.
- * <p>
- * 我的GitHub: https://github.com/ysnows
- * <p>
- * 加油,做一个真的汉子
  */
 
 public class Msg {
