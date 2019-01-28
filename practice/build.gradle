@@ -40,6 +40,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    api 'com.github.promeg:tinypinyin:2.0.3'
+
 }
 /*第 4 步: 生成源 JAR
 为了遵守 Maven 标准，你的库也应该有一个包含了库的源文件的 JAR 文件。

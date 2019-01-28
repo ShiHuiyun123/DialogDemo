@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string name="degree_of_confidence" >Confidence</string >
+    <string name="the_results_of" >Result</string >
+    <string name="no_matching_results" >No Match.</string >
+    <string name="beyond_the_valid_value_range" >Out of valid range</string >
+    <string name="you_can_only_enter_numbers" >Can only enter numbers</string >
+    <string name="open_corresponding_permissions" >Please go to the Settings - Application Rights Management interface</string >
+    <string name="boot_failure" >Startup Failed</string >
+    <string name="action_share" >Share</string >
+    <string name="loading" >Loading...</string >
+    <string name="i_know" >I Know</string >
+
+</resources >

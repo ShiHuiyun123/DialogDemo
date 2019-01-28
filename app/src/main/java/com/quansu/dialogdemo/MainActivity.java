@@ -5,18 +5,16 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.quansu.dialogdemo.utils.TestDialog;
-import com.quansu.practice.MyView;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       // setContentView(R.layout.activity_main);
-       //initView();
+        setContentView(R.layout.activity_main);
+       initView();
 
-        View v = new MyView(this);
-        setContentView(v);
+
 
     }
 
